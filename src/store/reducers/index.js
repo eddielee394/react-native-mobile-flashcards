@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
-// import entries from "../../components/Entries/store/reducers";
+import decks from "../../components/Decks/store/reducers";
 
 const createReducer = asyncReducers =>
   combineReducers({
-    // entries,
+    decks,
     ...asyncReducers
   });
 
