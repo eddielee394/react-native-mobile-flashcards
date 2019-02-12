@@ -1,6 +1,7 @@
 {
   "main": "src/App.js",
   "scripts": {
+    "debug": "expo start",
     "start": "cp .env.example .env --clobber=false && expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
