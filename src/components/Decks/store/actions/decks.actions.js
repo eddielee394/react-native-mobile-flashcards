@@ -1,16 +1,17 @@
-export const GET_DECKS_SUCCESS = "[DECKS] GET_DECKS_SUCCESS]";
-export const ADD_DECK_SUCCESS = "[DECKS] ADD_DECK_SUCCESS]";
+import Api from "utils/Api";
+export const GET_DECKS = "[DECKS] GET_DECKS]";
+export const ADD_DECK = "[DECKS] ADD_DECK_SUCCESS]";
 
-export const getDecks = decks => {
-  return {
-    type: GET_DECKS_SUCCESS,
-    payload: decks
-  };
+export const getDecks = decks => dispatch => {
+  return dispatch({
+    type: GET_DECKS,
+    payload: Api.fetchDecks()
+  });
 };
 
 export const addDeck = deck => {
   return {
-    type: ADD_DECK_SUCCESS,
+    type: ADD_DECK,
     payload: deck
   };
 };

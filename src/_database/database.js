@@ -1,5 +1,7 @@
 import mock from "./mock";
 import _ from "@lodash";
+import { LOCAL_HOST } from "react-native-dotenv";
+const localhost = LOCAL_HOST;
 
 const db = {
   users: {},
@@ -30,12 +32,13 @@ const db = {
   }
 };
 
-mock.onGet("/api/decks").reply(request => {
+mock.onGet(`http://${localhost}/api/decks`).reply(request => {
+  console.log("axios request: ", request, db.decks);
   return [200, db.decks];
 });
 mock.onPost("/api/decks").reply(request => {});
 mock.onGet("/api/deck").reply(request => {
-  const deck = _.find();
+  // const deck = _.find();
 });
 mock.onPost("/api/deck").reply(request => {});
 mock.onGet("/api/cards").reply(request => {});

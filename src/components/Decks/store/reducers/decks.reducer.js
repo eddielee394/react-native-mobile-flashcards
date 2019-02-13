@@ -11,15 +11,17 @@ const initialState = {
  * @return {{}}
  */
 const decksReducer = (state = initialState, action) => {
+  console.log("decksReducer actionype: ", action.type);
   switch (action.type) {
-    case Actions.GET_DECKS_SUCCESS:
+    case `${Actions.GET_DECKS}_SUCCESS`:
+      console.log("decksReducer: ", action.payload);
       return {
         //receive the state
         ...state,
         //merge the action
         data: action.payload
       };
-    case Actions.ADD_DECK_SUCCESS:
+    case `${Actions.ADD_DECK}_SUCCESS`:
       return {
         //receive the state
         ...state,
