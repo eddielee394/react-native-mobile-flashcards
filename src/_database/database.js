@@ -4,8 +4,9 @@ import { Env } from "config/appConfig";
 
 export const db = {
   users: {},
-  decks: {
-    React: {
+  decks: [
+    {
+      id: "react",
       title: "React",
       questions: [
         {
@@ -18,7 +19,8 @@ export const db = {
         }
       ]
     },
-    JavaScript: {
+    {
+      id: "javascript",
       title: "JavaScript",
       questions: [
         {
@@ -27,8 +29,19 @@ export const db = {
             "The combination of a function and the lexical environment within which that function was declared."
         }
       ]
+    },
+    {
+      id: "react-native",
+      title: "React Native",
+      questions: [
+        {
+          question: "What is React Native?",
+          answer:
+            "A framework based on ReactJS used to create mobile apps using javascript"
+        }
+      ]
     }
-  }
+  ]
 };
 
 mock.onGet(`http://${Env.expoHostUri}/api/decks`).reply(request => {
