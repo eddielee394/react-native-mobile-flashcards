@@ -5,7 +5,7 @@ import AppNavigator from "./navigation/AppNavigator";
 import { Provider } from "react-redux";
 import { persistor, store } from "./store";
 import { PersistGate } from "redux-persist/integration/react";
-import { StyleProvider } from "native-base";
+import { StyleProvider, Header } from "native-base";
 import { Container } from "native-base";
 import material from "./config/native-base-theme/variables/material";
 import getTheme from "./config/native-base-theme/components";
@@ -57,8 +57,11 @@ class App extends Component {
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <StyleProvider style={getTheme(material)}>
-            <Container style={styles.container}>
-              {Platform.OS === "ios" && <StatusBar barStyle="default" />}
+            <Container>
+              <StatusBar
+                style={{ backgroundColor: material.toolbarDefaultBg }}
+              />
+              <Header />
               <AppNavigator />
             </Container>
           </StyleProvider>
@@ -67,12 +70,5 @@ class App extends Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff"
-  }
-});
 
 export default App;

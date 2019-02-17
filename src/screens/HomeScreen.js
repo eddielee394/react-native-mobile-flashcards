@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import { WebBrowser } from "expo";
 
-import { MonoText } from "../components/StyledText";
+import { MonoText } from "../components/UI/StyledText";
 import Api from "utils/Api";
 import axios from "axios";
 import { db } from "_database/database";

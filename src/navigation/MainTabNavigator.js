@@ -4,18 +4,18 @@ import {
   createStackNavigator,
   createBottomTabNavigator
 } from "react-navigation";
-
-import TabBarIcon from "../components/TabBarIcon";
-import HomeScreen from "../screens/HomeScreen";
-import LinksScreen from "../screens/LinksScreen";
-import SettingsScreen from "../screens/SettingsScreen";
+import TabBarIcon from "components/UI/TabBarIcon";
+import HomeScreen from "screens/HomeScreen";
+import LinksScreen from "screens/LinksScreen";
+import SettingsScreen from "screens/SettingsScreen";
+import material from "config/native-base-theme/variables/material";
 
 const HomeStack = createStackNavigator({
   Home: HomeScreen
 });
 
 HomeStack.navigationOptions = {
-  tabBarLabel: "Home",
+  tabBarLabel: "Decks",
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
@@ -56,8 +56,16 @@ SettingsStack.navigationOptions = {
   )
 };
 
-export default createBottomTabNavigator({
+const routeConfigs = {
   HomeStack,
   LinksStack,
   SettingsStack
+};
+
+export default createBottomTabNavigator(routeConfigs, {
+  tabBarOptions: {
+    activeTintColor: material.tabBarActiveTextColor,
+    inactiveTintColor: material.tabBarTextColor,
+    style: { backgroundColor: material.toolbarDefaultBg }
+  }
 });
