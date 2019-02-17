@@ -1,5 +1,4 @@
 {
-  "main": "src/App.js",
   "scripts": {
     "debug": "expo start",
     "start": "cp .env.example .env --clobber=false && expo start",

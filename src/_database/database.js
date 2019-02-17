@@ -1,9 +1,8 @@
 import mock from "./mock";
 import _ from "@lodash";
-import { LOCAL_HOST } from "react-native-dotenv";
-const localhost = LOCAL_HOST;
+import { Env } from "config/appConfig";
 
-const db = {
+export const db = {
   users: {},
   decks: {
     React: {
@@ -32,18 +31,22 @@ const db = {
   }
 };
 
-mock.onGet(`http://${localhost}/api/decks`).reply(request => {
-  console.log("axios request: ", request, db.decks);
+mock.onGet(`http://${Env.expoHostUri}/api/decks`).reply(request => {
+  console.log("database request: ", request);
   return [200, db.decks];
 });
-mock.onPost("/api/decks").reply(request => {});
-mock.onGet("/api/deck").reply(request => {
+
+mock.onGet(`http://${Env.expoHostUri}/api/decks`).reply(request => {
+  return [200, db.decks];
+});
+mock.onPost(`http://${Env.expoHostUri}/api/decks`).reply(request => {});
+mock.onGet(`http://${Env.expoHostUri}/api/deck`).reply(request => {
   // const deck = _.find();
 });
-mock.onPost("/api/deck").reply(request => {});
-mock.onGet("/api/cards").reply(request => {});
-mock.onPost("/api/cards").reply(request => {});
-mock.onGet("/api/card").reply(request => {});
-mock.onPost("/api/card").reply(request => {});
-mock.onGet("/api/users").reply(request => {});
-mock.onPost("/api/users").reply(request => {});
+mock.onPost(`http://${Env.expoHostUri}/api/deck`).reply(request => {});
+mock.onGet(`http://${Env.expoHostUri}/api/cards`).reply(request => {});
+mock.onPost(`http://${Env.expoHostUri}/api/cards`).reply(request => {});
+mock.onGet(`http://${Env.expoHostUri}/api/card`).reply(request => {});
+mock.onPost(`http://${Env.expoHostUri}/api/card`).reply(request => {});
+mock.onGet(`http://${Env.expoHostUri}/api/users`).reply(request => {});
+mock.onPost(`http://${Env.expoHostUri}/api/users`).reply(request => {});

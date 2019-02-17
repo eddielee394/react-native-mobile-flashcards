@@ -1,6 +1,6 @@
 import Reactotron from "reactotron-react-native";
-import { LOCAL_HOST } from "react-native-dotenv";
+import { Env } from "config/appConfig";
 
-Reactotron.configure({ host: LOCAL_HOST }) // controls connection & communication settings
+Reactotron.configure({ host: Env.localhost }) // controls connection & communication settings
   .useReactNative() // add all built-in react native plugins
   .connect(); // let's connect!

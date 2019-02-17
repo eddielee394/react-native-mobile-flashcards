@@ -5,7 +5,7 @@ export const ADD_DECK = "[DECKS] ADD_DECK_SUCCESS]";
 export const getDecks = decks => dispatch => {
   return dispatch({
     type: GET_DECKS,
-    payload: Api.fetchDecks()
+    payload: Api.fetchDecks().then(response => response.data)
   });
 };
 

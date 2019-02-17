@@ -10,9 +10,13 @@ class DeckList extends Component {
   }
 
   render() {
+    const { decks } = this.props;
     return (
       <View>
         <Text>DeckList</Text>
+        {Object.keys(decks).map(deck => (
+          <Text key={deck}>{deck}</Text>
+        ))}
       </View>
     );
   }

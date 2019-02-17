@@ -11,7 +11,6 @@ const initialState = {
  * @return {{}}
  */
 const decksReducer = (state = initialState, action) => {
-  console.log("decksReducer actionype: ", action.type);
   switch (action.type) {
     case `${Actions.GET_DECKS}_SUCCESS`:
       console.log("decksReducer: ", action.payload);

@@ -1,5 +1,5 @@
 import { createLogger } from "redux-logger";
-import { REDUX_LOGGER } from "react-native-dotenv";
+import { Env } from "config/appConfig";
 
 const ansiCodes = {
   black: "\u001b[30m",
@@ -24,13 +24,16 @@ const ansiCodes = {
   reversed: "\u001b[7m"
 };
 
-const formatString = (string, color, style = null) =>
+const formatString = (string, color, style) =>
   `${style}${color}${string}${ansiCodes.reset}`;
 
-let loggerConfig = {};
+let loggerConfig = {
+  logErrors: false
+};
 
-if (REDUX_LOGGER === "TERMINAL") {
+if (Env.reduxLogger === "TERMINAL") {
   loggerConfig = {
+    ...loggerConfig,
     colors: {
       title: false
     },

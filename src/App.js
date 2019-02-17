@@ -1,12 +1,6 @@
-if (__DEV__) {
-  import("./config/reactotronConfig").then(() =>
-    console.log("Reactotron Configured")
-  );
-}
-
 import React, { Component } from "react";
 import { Platform, StatusBar, StyleSheet, View } from "react-native";
-import { AppLoading, Asset, Font, Icon, registerRootComponent } from "expo";
+import { AppLoading, Asset, Font, Icon } from "expo";
 import AppNavigator from "./navigation/AppNavigator";
 import { Provider } from "react-redux";
 import { persistor, store } from "./store";
@@ -81,4 +75,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default registerRootComponent(App);
+export default App;
