@@ -8,6 +8,8 @@ export const db = {
     {
       id: "react",
       title: "React",
+      imgUrl:
+        "https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg",
       questions: [
         {
           question: "What is React?",
@@ -22,6 +24,8 @@ export const db = {
     {
       id: "javascript",
       title: "JavaScript",
+      imgUrl:
+        "https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg",
       questions: [
         {
           question: "What is a closure?",
@@ -33,6 +37,8 @@ export const db = {
     {
       id: "react-native",
       title: "React Native",
+      imgUrl:
+        "https://images.pexels.com/photos/908284/pexels-photo-908284.jpeg",
       questions: [
         {
           question: "What is React Native?",

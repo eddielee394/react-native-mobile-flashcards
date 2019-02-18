@@ -3,6 +3,8 @@ import { View, Text } from "react-native";
 import * as Actions from "components/Decks/store/actions";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
+import { Slider } from "components/UI";
+import { Content, Tabs, ScrollableTab, Header, Tab } from "native-base";
 
 class DeckList extends Component {
   componentDidMount() {
@@ -13,12 +15,10 @@ class DeckList extends Component {
     const { decks } = this.props;
 
     return (
-      <View>
+      <Content>
         <Text>DeckList</Text>
-        {decks.map(deck => (
-          <Text key={deck.id}>{deck.title}</Text>
-        ))}
-      </View>
+        <Slider data={decks} />
+      </Content>
     );
   }
 }

@@ -15,6 +15,7 @@ import Api from "utils/Api";
 import axios from "axios";
 import { db } from "_database/database";
 import DeckList from "components/Decks/DeckList";
+import { Slider } from "components/UI";
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
