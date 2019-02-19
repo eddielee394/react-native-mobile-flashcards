@@ -6,7 +6,7 @@ import {
 } from "react-navigation";
 import TabBarIcon from "components/UI/TabBarIcon";
 import HomeScreen from "screens/HomeScreen";
-import LinksScreen from "screens/LinksScreen";
+import AddDeckScreen from "screens/AddDeckScreen";
 import SettingsScreen from "screens/SettingsScreen";
 import material from "config/native-base-theme/variables/material";
 
@@ -15,7 +15,7 @@ const HomeStack = createStackNavigator({
 });
 
 HomeStack.navigationOptions = {
-  tabBarLabel: "Decks",
+  tabBarLabel: "Home",
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
@@ -28,16 +28,16 @@ HomeStack.navigationOptions = {
   )
 };
 
-const LinksStack = createStackNavigator({
-  Links: LinksScreen
+const NewDeckStack = createStackNavigator({
+  NewDeck: AddDeckScreen
 });
 
-LinksStack.navigationOptions = {
-  tabBarLabel: "Links",
+AddDeckScreen.navigationOptions = {
+  tabBarLabel: "Add Deck",
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={Platform.OS === "ios" ? "ios-link" : "md-link"}
+      name={Platform.OS === "ios" ? "ios-plus" : "md-plus"}
     />
   )
 };
@@ -58,7 +58,7 @@ SettingsStack.navigationOptions = {
 
 const routeConfigs = {
   HomeStack,
-  LinksStack,
+  NewDeckStack,
   SettingsStack
 };
 

@@ -32,8 +32,10 @@ export default class SliderEntry extends Component {
 
   render() {
     const {
-      data: { title, questions },
-      even
+      data: { id, title, questions },
+      even,
+      navigation,
+      openItem
     } = this.props;
 
     const questionsLength = questions.length;
@@ -54,7 +56,7 @@ export default class SliderEntry extends Component {
         activeOpacity={1}
         style={styles.slideInnerContainer}
         onPress={() => {
-          alert(`You've clicked '${title}'`);
+          openItem(id);
         }}
       >
         <View style={styles.shadow} />

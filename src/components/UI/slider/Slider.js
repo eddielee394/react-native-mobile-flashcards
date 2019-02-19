@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, SafeAreaView } from "react-native";
+import { View, SafeAreaView, ScrollView } from "react-native";
 import Carousel, { Pagination } from "react-native-snap-carousel";
 import { sliderWidth, itemWidth } from "./styles/SliderEntry.style";
 import SliderEntry from "./SliderEntry";
@@ -11,7 +11,15 @@ export default class Slider extends Component {
   };
 
   _renderItem({ item, index }) {
-    return <SliderEntry data={item} even={(index + 1) % 2 === 0} />;
+    return (
+      <SliderEntry
+        data={item}
+        even={(index + 1) % 2 === 0}
+        navigation={this.props.navigation}
+        style={{ flex: 1 }}
+        openItem={this.props.openItem}
+      />
+    );
   }
 
   get pagination() {
@@ -40,7 +48,7 @@ export default class Slider extends Component {
       <Carousel
         ref={c => (this._sliderRef = c)}
         data={data}
-        renderItem={this._renderItem}
+        renderItem={this._renderItem.bind(this)}
         sliderWidth={sliderWidth}
         itemWidth={itemWidth}
         containerCustomStyle={styles.slider}
@@ -54,10 +62,14 @@ export default class Slider extends Component {
 
     return (
       <SafeAreaView style={styles.safeArea}>
-        <View style={styles.container}>
+        <ScrollView
+          style={styles.scrollview}
+          scrollEventThrottle={200}
+          directionalLockEnabled={true}
+        >
           {this.pagination}
           {renderCarousel}
-        </View>
+        </ScrollView>
       </SafeAreaView>
     );
   }

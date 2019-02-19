@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { View, Text } from "react-native";
+import { withNavigation } from "react-navigation";
 
 class CardDetail extends Component {
   render() {
@@ -11,4 +12,4 @@ class CardDetail extends Component {
   }
 }
 
-export default CardDetail;
+export default withNavigation(CardDetail);

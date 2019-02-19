@@ -5,19 +5,27 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import { Slider } from "components/UI";
 import { Content, Tabs, ScrollableTab, Header, Tab } from "native-base";
+import { withNavigation } from "react-navigation";
 
 class DeckList extends Component {
   componentDidMount() {
     this.props.getDecks();
   }
 
+  openItem(itemId) {
+    this.props.navigation.navigate({
+      routeName: "DeckDetail",
+      params: { ...itemId }
+    });
+  }
+
   render() {
     const { decks } = this.props;
-
+    console.log("DeckList navigation", this.props.navigation);
     return (
       <Content>
         <Text>DeckList</Text>
-        <Slider data={decks} />
+        <Slider data={decks} openItem={this.openItem} />
       </Content>
     );
   }
@@ -41,7 +49,9 @@ function mapStateToProps({ decks }) {
   };
 }
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(DeckList);
+export default withNavigation(
+  connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(DeckList)
+);

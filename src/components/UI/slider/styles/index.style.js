@@ -23,6 +23,9 @@ export default StyleSheet.create({
   sliderContentContainer: {
     paddingVertical: 10 // for custom animation
   },
+  slideStyle: {
+    flex: 1
+  },
   paginationContainer: {
     paddingVertical: 8
   },
