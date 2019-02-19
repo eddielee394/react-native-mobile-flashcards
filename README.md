@@ -1,8 +1,7 @@
 # Overview
 Mobile flash cards and quiz app built with React Native. Projec & docs are **WIP**
 
-### Specific Requirements
-- Use create-react-native-app to build your project.
+### Functionality Overview
 - Allow users to create a deck which can hold an unlimited number of cards.
 - Allow users to add a card to a specific deck.
 - The front of the card should display the question.
@@ -41,5 +40,3 @@ New Question View
 An option to enter in the question
 An option to enter in the answer
 An option to submit the new question
-
-Data
