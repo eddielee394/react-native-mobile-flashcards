@@ -1,14 +1,16 @@
 import React, { Component } from "react";
-import { Platform, StatusBar, StyleSheet, View } from "react-native";
+import { StatusBar } from "react-native";
 import { AppLoading, Asset, Font, Icon } from "expo";
-import AppNavigator from "./navigation/AppNavigator";
+import { AppNavigator } from "navigation";
 import { Provider } from "react-redux";
 import { persistor, store } from "./store";
 import { PersistGate } from "redux-persist/integration/react";
-import { StyleProvider, Header } from "native-base";
+import { StyleProvider } from "native-base";
 import { Container } from "native-base";
 import material from "./config/native-base-theme/variables/material";
 import getTheme from "./config/native-base-theme/components";
+import { Router } from "react-native-router-flux";
+import FooterNav from "components/Nav/FooterNav";
 
 class App extends Component {
   state = {
@@ -61,8 +63,8 @@ class App extends Component {
               <StatusBar
                 style={{ backgroundColor: material.toolbarDefaultBg }}
               />
-              <Header />
-              <AppNavigator />
+              <Router>{AppNavigator}</Router>
+              <FooterNav />
             </Container>
           </StyleProvider>
         </PersistGate>

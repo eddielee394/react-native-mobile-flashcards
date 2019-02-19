@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import { View, Text } from "react-native";
 import * as Actions from "components/Decks/store/actions";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import { Slider } from "components/UI";
-import { Content, Tabs, ScrollableTab, Header, Tab } from "native-base";
-import { withNavigation } from "react-navigation";
+import { Content, Tabs, ScrollableTab, Header, Tab, Text } from "native-base";
+import { Actions as RouteActions } from "react-native-router-flux";
 
 class DeckList extends Component {
   componentDidMount() {
@@ -13,10 +12,8 @@ class DeckList extends Component {
   }
 
   openItem(itemId) {
-    this.props.navigation.navigate({
-      routeName: "DeckDetail",
-      params: { ...itemId }
-    });
+    console.log("Decklist RouteActions: ", RouteActions);
+    RouteActions.deckDetail({ itemId: itemId });
   }
 
   render() {
@@ -49,9 +46,7 @@ function mapStateToProps({ decks }) {
   };
 }
 
-export default withNavigation(
-  connect(
-    mapStateToProps,
-    mapDispatchToProps
-  )(DeckList)
-);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(DeckList);

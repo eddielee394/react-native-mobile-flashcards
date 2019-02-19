@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import { Container, Text } from "native-base";
 
-class DeckDetail extends Component {
+class AddDeck extends Component {
   render() {
-    console.log("DeckDetail props", this.props);
     return (
       <Container>
-        <Text>Deck Detail</Text>
+        <Text>AddDeck</Text>
       </Container>
     );
   }
 }
 
-export default DeckDetail;
+export default AddDeck;
