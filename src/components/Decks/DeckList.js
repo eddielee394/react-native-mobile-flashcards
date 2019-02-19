@@ -18,10 +18,9 @@ class DeckList extends Component {
 
   render() {
     const { decks } = this.props;
-    console.log("DeckList navigation", this.props.navigation);
+
     return (
       <Content>
-        <Text>DeckList</Text>
         <Slider data={decks} openItem={this.openItem} />
       </Content>
     );
