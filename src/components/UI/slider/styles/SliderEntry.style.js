@@ -95,6 +95,9 @@ export default StyleSheet.create({
     fontSize: 12,
     fontStyle: "italic"
   },
+  textIcon: {
+    marginRight: 5
+  },
   subtitleEven: {
     color: "rgba(255, 255, 255, 0.7)"
   }

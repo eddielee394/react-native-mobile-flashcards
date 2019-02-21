@@ -78,7 +78,7 @@ export default {
     return this.fontSizeBase * 1.5;
   },
   get btnTextSizeSmall() {
-    return this.fontSizeBase * 0.8;
+    return this.fontSizeBase * 0.7;
   },
   get borderRadiusLarge() {
     return this.fontSizeBase * 3.8;
@@ -117,6 +117,17 @@ export default {
   brandDark: "#000",
   brandLight: "#f4f4f4",
   gray: "#888888",
+  colors: {
+    grey: "#acacac",
+    gray: "#5f5f5f",
+    darkGray: "#4d4d4d",
+    lightGray: "#9b9b9b",
+    white: "#ffffff",
+    blue: "#007aff",
+    bluish: "#86a9ea",
+    black: "#000000",
+    yellow: "#ffc247"
+  },
 
   //Container
   containerBgColor: "#fff",
@@ -262,13 +273,27 @@ export default {
   // Other
   borderRadiusBase: 2,
   borderWidth: 1 / PixelRatio.getPixelSizeForLayoutSize(1),
-  contentPadding: 10,
   dropdownLinkColor: "#414142",
   inputLineHeight: 24,
   deviceWidth,
   deviceHeight,
   isIphoneX,
   inputGroupRoundedBorderRadius: 30,
+  androidShadow1: { elevation: 1 },
+  androidShadow2: { elevation: 2 },
+  androidShadow3: { elevation: 3 },
+
+  //spacing
+  contentPadding: 10,
+  contentPaddingTop: { paddingTop: 10 },
+  contentPaddingBottom: { paddingBottom: 10 },
+  contentPaddingLeft: { paddingLeft: 10 },
+  contentPaddingRight: { paddingRight: 10 },
+  contentMargin: { margin: 10 },
+  contentMarginTop: { marginTop: 10 },
+  contentMarginBottom: { marginBottom: 10 },
+  contentMarginLeft: { marginLeft: 10 },
+  contentMarginRight: { marginRight: 10 },
 
   //iPhoneX SafeArea
   Inset: {

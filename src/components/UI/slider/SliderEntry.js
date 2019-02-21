@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { View, Text, Image, TouchableOpacity } from "react-native";
+import { View, Image, TouchableOpacity } from "react-native";
 import { ParallaxImage } from "react-native-snap-carousel";
 import styles from "./styles/SliderEntry.style";
+import { Icon, Text } from "native-base";
 
 export default class SliderEntry extends Component {
   get image() {
@@ -32,13 +33,13 @@ export default class SliderEntry extends Component {
 
   render() {
     const {
-      data: { id, title, questions },
+      data: { id, title, cards },
       even,
       navigation,
       openItem
     } = this.props;
 
-    const questionsLength = questions.length;
+    const cardsLength = cards.length;
 
     const uppercaseTitle = title ? (
       <Text
@@ -76,7 +77,15 @@ export default class SliderEntry extends Component {
             style={[styles.subtitle, even ? styles.subtitleEven : {}]}
             numberOfLines={2}
           >
-            {questionsLength}
+            <Icon
+              name="albums"
+              style={[
+                styles.subtitle,
+                styles.textIcon,
+                even ? styles.subtitleEven : {}
+              ]}
+            />
+            {cardsLength} Cards
           </Text>
         </View>
       </TouchableOpacity>

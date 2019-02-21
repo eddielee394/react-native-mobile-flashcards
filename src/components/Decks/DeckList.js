@@ -20,7 +20,7 @@ class DeckList extends Component {
     const { decks } = this.props;
 
     return (
-      <Content>
+      <Content padder>
         <Slider data={decks} openItem={this.openItem} />
       </Content>
     );
