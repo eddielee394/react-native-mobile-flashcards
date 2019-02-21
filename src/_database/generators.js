@@ -7,9 +7,9 @@ const usersSchema = () => ({
   key: "users",
   id: faker.unique(faker.random.uuid),
   username: faker.unique(faker.internet.userName),
-  password: faker.internet.password(),
+  password: faker.internet.password(6, 1),
   avatarUrl: faker.image.avatar(150, 150, true),
-  questions: [],
+  cards: [],
   answers: {}
 });
 
@@ -18,7 +18,7 @@ const decksSchema = () => ({
   id: faker.unique(faker.random.uuid),
   title: _.upperFirst(faker.hacker.ingverb()),
   imgUrl: faker.image.technics(720, 1440, true),
-  questions: [
+  cards: [
     {
       question: `How to ${faker.hacker.verb()}?`,
       answer: faker.hacker.phrase()
@@ -31,7 +31,8 @@ const decksSchema = () => ({
       question: `How to ${faker.hacker.verb()}?`,
       answer: faker.hacker.phrase()
     }
-  ]
+  ],
+  timestamp: faker.date.recent(60)
 });
 
 /**
