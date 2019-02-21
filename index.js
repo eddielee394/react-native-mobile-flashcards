@@ -1,26 +1,13 @@
-import React from "react";
-import { KeepAwake, registerRootComponent, Logs } from "expo";
+import { AppRegistry } from "react-native";
+import App from "./src/App";
+import { name as appName } from "./app.json";
 
 if (__DEV__) {
   //reacttotron config
   import("./src/config/reactotronConfig").then(() =>
     console.log("Reactotron Configured")
   );
-
-  //Disable expoCli logs
-  const isRemoteDebuggingEnabled = typeof atob !== "undefined";
-  if (isRemoteDebuggingEnabled) {
-    Logs.disableExpoCliLogging();
-  } else {
-    Logs.enableExpoCliLogging();
-  }
-  KeepAwake.activate();
 }
 console.disableYellowBox = true;
 
-const AppEntry = () => {
-  const App = require("./src/App").default;
-  return <App />;
-};
-
-registerRootComponent(AppEntry);
+AppRegistry.registerComponent(appName, () => App);

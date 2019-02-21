@@ -1,4 +1,6 @@
 {
+  "name": "flashcards",
+  "displayName": "flashcards",
   "expo": {
     "entryPoint": "index.js",
     "name": "flashcards",
