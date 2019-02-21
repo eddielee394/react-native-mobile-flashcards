@@ -9,7 +9,8 @@ const rootRoutes = [
   {
     key: "deckDetail",
     component: DeckDetail,
-    title: "Deck"
+    title: "Deck",
+    path: "/decks/:id/"
   },
   { key: "cardDetail", component: CardDetail, title: "Card" }
 ];
@@ -46,6 +47,7 @@ const navScreens = navRoutes.map(route => {
       component={route.component}
       title={route.title}
       initial={route.initial ? route.initial : false}
+      path={route.path ? route.path : ""}
     />
   );
 });
