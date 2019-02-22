@@ -15,7 +15,7 @@ import { Image } from "react-native";
 import { CardList } from "components/Cards";
 import { Helpers } from "utils";
 import material from "config/native-base-theme/variables/material";
-
+import { Actions as RouteActions } from "react-native-router-flux";
 class DeckDetail extends Component {
   render() {
     const { deck } = this.props;
@@ -29,6 +29,16 @@ class DeckDetail extends Component {
               <Body>
                 <Text>{deck.title}</Text>
               </Body>
+              <Button small transparent iconLeft>
+                <Icon
+                  active
+                  name="clock"
+                  style={{ color: material.colors.blue }}
+                />
+                <Text style={{ fontSize: 10 }}>
+                  {Helpers.formatDate(deck.timestamp)}
+                </Text>
+              </Button>
             </Left>
           </CardItem>
           <CardItem cardBody>
@@ -39,27 +49,20 @@ class DeckDetail extends Component {
           </CardItem>
           <CardItem>
             <Left>
-              <Button transparent>
-                <Icon active name="thumbs-up" />
-                <Text>12 Likes</Text>
-              </Button>
-            </Left>
-            <Body>
-              <Button transparent>
+              <Button transparent iconLeft>
                 <Icon active name="albums" />
                 <Text>{deck.cards.length} Cards</Text>
               </Button>
-            </Body>
+            </Left>
             <Right>
-              <Button transparent>
-                <Icon
-                  active
-                  name="clock"
-                  style={{ color: material.colors.blue }}
-                />
-                <Text style={{ fontSize: 12 }}>
-                  {Helpers.formatDate(deck.timestamp)}
-                </Text>
+              <Button
+                block
+                iconLeft
+                info
+                onPress={() => RouteActions.addCard()}
+              >
+                <Icon active name="md-add-circle" />
+                <Text>Add Card</Text>
               </Button>
             </Right>
           </CardItem>

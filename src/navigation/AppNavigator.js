@@ -2,7 +2,7 @@ import React from "react";
 import { Scene, Stack } from "react-native-router-flux";
 
 //component views
-import { CardDetail } from "components/Cards";
+import { CardDetail, AddCard } from "components/Cards";
 import { AddDeck, DeckDetail, DeckList } from "components/Decks";
 
 const rootRoutes = [
@@ -26,12 +26,14 @@ const navRoutes = [
     key: "addDeck",
     component: AddDeck,
     title: "Add Deck"
-  }
+  },
+  { key: "addCard", component: AddCard, title: "Add Card" }
 ];
 
 const rootScreens = rootRoutes.map(route => {
   return (
     <Scene
+      hideNavBar={true}
       key={route.key}
       component={route.component}
       title={route.title}

@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import {
   Tabs,
   Tab,
   ScrollableTab,
   Grid,
   Col,
+  Row,
   Button,
   Icon,
   Text
@@ -26,22 +27,22 @@ class CardList extends Component {
           {cards.map((card, index) => (
             <Tab key={index} heading={card.question}>
               <CardDetail key={index} card={card} />
-              <Grid>
-                <Col>
-                  <Button onPress={() => console.log("correct button pressed")}>
-                    <Icon name="success" />
-                    <Text>Correct</Text>
-                  </Button>
-                </Col>
-                <Col>
-                  <Button
-                    onPress={() => console.log("incorrect button pressed")}
-                  >
-                    <Icon name="error" />
-                    <Text>Incorrect</Text>
-                  </Button>
-                </Col>
-              </Grid>
+              <View style={styles.container}>
+                <Button
+                  success
+                  onPress={() => console.log("correct button pressed")}
+                >
+                  <Icon name="md-checkmark-circle-outline" />
+                  <Text>Correct</Text>
+                </Button>
+                <Button
+                  danger
+                  onPress={() => console.log("incorrect button pressed")}
+                >
+                  <Icon name="md-close" />
+                  <Text>Incorrect</Text>
+                </Button>
+              </View>
             </Tab>
           ))}
         </Tabs>
@@ -49,5 +50,16 @@ class CardList extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    backgroundColor: "#F5FCFF",
+    padding: 10
+  }
+});
 
 export default CardList;
