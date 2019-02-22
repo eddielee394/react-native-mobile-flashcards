@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Content, Text } from "native-base";
+import { Container, Content, Text, Icon, Button } from "native-base";
 import { TouchableOpacity, StyleSheet, View } from "react-native";
 import CardFlip from "react-native-card-flip";
 import material from "config/native-base-theme/variables/material";
@@ -18,14 +18,30 @@ class CardDetail extends Component {
             style={[styles.card, styles.card1]}
             onPress={() => this.card.flip()}
           >
-            <Text style={styles.label}>{card.question}</Text>
+            <Text style={styles.title}>{card.question}</Text>
+            <View style={styles.subTitleContainer}>
+              <Text style={styles.subTitle}>View Answer</Text>
+              <Icon
+                type="EvilIcons"
+                name="pointer"
+                style={{ color: material.brandLight }}
+              />
+            </View>
           </TouchableOpacity>
           <TouchableOpacity
             activeOpacity={1}
             style={[styles.card, styles.card2]}
             onPress={() => this.card.flip()}
           >
-            <Text style={styles.label}>{card.answer}</Text>
+            <Text style={styles.title}>{card.answer}</Text>
+            <View style={styles.subTitleContainer}>
+              <Text style={styles.subTitle}>View Question</Text>
+              <Icon
+                type="EvilIcons"
+                name="pointer"
+                style={{ color: material.brandLight }}
+              />
+            </View>
           </TouchableOpacity>
         </CardFlip>
       </View>
@@ -67,14 +83,23 @@ const styles = StyleSheet.create({
   card2: {
     backgroundColor: material.colors.blue
   },
-  label: {
+  title: {
     padding: 10,
     lineHeight: 28,
     textAlign: "center",
     fontSize: 20,
     // fontFamily: "System",
-    color: "#ffffff",
+    color: material.titleFontColor,
     backgroundColor: "transparent"
+  },
+  subTitle: {
+    color: material.colors.grey,
+    fontSize: material.subTitleFontSize
+  },
+  subTitleContainer: {
+    flex: 0,
+    flexDirection: "row",
+    justifyContent: "center"
   }
 });
 
