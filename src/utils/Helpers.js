@@ -1,4 +1,5 @@
 import moment from "moment";
+import faker from "faker";
 
 class Helpers {
   static formatDate = (timestamp, relative = true) => {
@@ -19,6 +20,29 @@ class Helpers {
       .format("h:mm A");
 
     return formattedTime + " | " + formattedDate;
+  };
+
+  static formatCard = ({ question, answer }) => {
+    const card = {
+      id: faker.random.uuid(),
+      question: question,
+      answer: answer,
+      timestamp: Date.now()
+    };
+
+    return card;
+  };
+
+  static formatDeck = ({ title, imgUrl }) => {
+    const deck = {
+      id: faker.random.uuid(),
+      title: title,
+      imgUrl: imgUrl,
+      cards: [],
+      timestamp: Date.now()
+    };
+
+    return deck;
   };
 }
 

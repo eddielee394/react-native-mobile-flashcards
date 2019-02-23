@@ -1,6 +1,10 @@
 # Overview
 Mobile flash cards and quiz app built with React Native. Projec & docs are **WIP**
 
+### Usage
+- run `yarn run start:all` to generate the mock api data file, start the local api server & build the app files.
+- You can update the api url in the auto-created `.env` file if necessary.
+
 ### Functionality Overview
 - Allow users to create a deck which can hold an unlimited number of cards.
 - Allow users to add a card to a specific deck.

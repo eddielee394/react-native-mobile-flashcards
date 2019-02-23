@@ -3,16 +3,6 @@ const _ = require("lodash");
 const faker = require("faker");
 
 //Schemas
-const usersSchema = () => ({
-  key: "users",
-  id: faker.unique(faker.random.uuid),
-  username: faker.unique(faker.internet.userName),
-  password: faker.internet.password(6, 1),
-  avatarUrl: faker.image.avatar(150, 150, true),
-  cards: [],
-  answers: {}
-});
-
 const decksSchema = () => ({
   key: "decks",
   id: faker.unique(faker.random.uuid),
@@ -93,4 +83,4 @@ function compileDbData(schemas) {
   writeDataToFile(data);
 }
 
-compileDbData([usersSchema, decksSchema]);
+compileDbData([decksSchema]);

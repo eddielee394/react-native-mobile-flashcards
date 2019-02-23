@@ -1,17 +1,39 @@
-import Api from "utils/Api";
-export const GET_DECKS = "[DECKS] GET_DECKS]";
-export const ADD_DECK = "[DECKS] ADD_DECK_SUCCESS]";
+import { Api, Helpers } from "utils";
 
-export const getDecks = decks => dispatch => {
+export const GET_DECKS = "[DECKS] GET_DECKS";
+export const GET_DECK = "[DECK] GET_DECK";
+export const STORE_DECK = "[DECKS] STORE_DECK";
+export const STORE_CARD = "[DECKS] STORE_CARD";
+export const UPDATE_DECKS = "[DECKS] UPDATE_DECKS";
+export const UPDATE_DECK = "[DECKS] UPDATE_DECK";
+
+export const getDecks = () => dispatch => {
   return dispatch({
     type: GET_DECKS,
     payload: Api.fetchDecks().then(response => response.data)
   });
 };
 
-export const addDeck = deck => {
+export const storeDeck = deck => dispatch => {
+  return dispatch({
+    type: STORE_DECK,
+    payload: Api.storeDeck(deck).then(response => response.data)
+  });
+};
+
+export const storeCard = data => dispatch => {
+  return dispatch({
+    type: STORE_CARD,
+    payload: new Promise(resolve => {
+      resolve({ card: Helpers.formatCard(data.card), deckId: data.deckId });
+    })
+  }).then(() => dispatch(updateDecks()));
+};
+
+export const updateDecks = () => (dispatch, getState) => {
+  const { decks } = getState();
   return {
-    type: ADD_DECK,
-    payload: deck
+    type: UPDATE_DECKS,
+    payload: Api.updateDecks(decks.data)
   };
 };

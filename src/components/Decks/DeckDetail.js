@@ -16,6 +16,7 @@ import { CardList } from "components/Cards";
 import { Helpers } from "utils";
 import material from "config/native-base-theme/variables/material";
 import { Actions as RouteActions } from "react-native-router-flux";
+
 class DeckDetail extends Component {
   render() {
     const { deck } = this.props;
@@ -59,7 +60,7 @@ class DeckDetail extends Component {
                 block
                 iconLeft
                 info
-                onPress={() => RouteActions.addCard()}
+                onPress={() => RouteActions.addCard({ deckId: deck.id })}
               >
                 <Icon active name="md-add-circle" />
                 <Text>Add Card</Text>

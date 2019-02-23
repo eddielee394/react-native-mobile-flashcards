@@ -202,6 +202,10 @@ export default {
   get inputColorPlaceholder() {
     return "#575757";
   },
+  inputLabel: {
+    color: this.inputColorPlaceholder,
+    fontSize: 14
+  },
 
   // Line Height
   btnLineHeight: 19,
@@ -285,15 +289,17 @@ export default {
 
   //spacing
   contentPadding: 10,
-  contentPaddingTop: { paddingTop: 10 },
-  contentPaddingBottom: { paddingBottom: 10 },
-  contentPaddingLeft: { paddingLeft: 10 },
-  contentPaddingRight: { paddingRight: 10 },
-  contentMargin: { margin: 10 },
-  contentMarginTop: { marginTop: 10 },
-  contentMarginBottom: { marginBottom: 10 },
-  contentMarginLeft: { marginLeft: 10 },
-  contentMarginRight: { marginRight: 10 },
+  contentPaddingAll: { padding: this.contentPadding },
+  contentPaddingTop: { paddingTop: this.contentPadding },
+  contentPaddingBottom: { paddingBottom: this.contentPadding },
+  contentPaddingLeft: { paddingLeft: this.contentPadding },
+  contentPaddingRight: { paddingRight: this.contentPadding },
+  contentMargin: 10,
+  contentMarginAll: { margin: this.contentMargin },
+  contentMarginTop: { marginTop: this.contentMargin },
+  contentMarginBottom: { marginBottom: this.contentMargin },
+  contentMarginLeft: { marginLeft: this.contentMargin },
+  contentMarginRight: { marginRight: this.contentMargin },
 
   //iPhoneX SafeArea
   Inset: {
