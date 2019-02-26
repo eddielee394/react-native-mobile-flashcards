@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Feb 21 17:28:16 CST 2019
+#Sat Mar 02 15:16:33 CST 2019
 64.base=F\:\\laragon\\www\\react-native\\flashcards\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 64.baseType=DIRECTORY
 33.base=F\:\\laragon\\www\\react-native\\flashcards\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0

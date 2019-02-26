@@ -5,10 +5,20 @@ import { connect } from "react-redux";
 import { Slider } from "components/UI";
 import { Content, Tabs, ScrollableTab, Header, Tab, Text } from "native-base";
 import { Actions as RouteActions } from "react-native-router-flux";
+import PushController from 'components/PushController.js'
+import PushNotification from "react-native-push-notification";
 
 class DeckList extends Component {
   componentDidMount() {
     this.props.getDecks();
+
+      PushNotification.localNotificationSchedule({
+          id:"12345",
+          message: 'You have not answered any quiz today', // (required)
+          date: new Date(Date.now() + (60000*3)), //
+          repeatType: 'day'
+      });
+
   }
 
   openItem(itemId) {

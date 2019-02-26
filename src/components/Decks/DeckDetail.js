@@ -17,6 +17,7 @@ import { Helpers } from "utils";
 import material from "config/native-base-theme/variables/material";
 import { Actions as RouteActions } from "react-native-router-flux";
 
+
 class DeckDetail extends Component {
   render() {
     const { deck } = this.props;
@@ -75,6 +76,7 @@ class DeckDetail extends Component {
 }
 
 function mapStateToProps({ decks }, props) {
+  console.log(decks)
   const deck = decks.data.find(deck => {
     return deck.id === props.itemId;
   });
