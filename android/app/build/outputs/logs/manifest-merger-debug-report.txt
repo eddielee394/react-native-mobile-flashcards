@@ -1,0 +1,513 @@
+-- Merging decision tree log ---
+permission#com.nativeflashcards.permission.C2D_MESSAGE
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:8:5-10:51
+	android:protectionLevel
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:10:13-48
+	android:name
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:9:13-67
+uses-permission#com.nativeflashcards.permission.C2D_MESSAGE
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:11:22-76
+category#com.nativeflashcards
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:51:17-61
+	android:name
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:51:27-58
+manifest
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12
+MERGED from [:react-native-push-notification] F:\laragon\www\react-native\flashcards\node_modules\react-native-push-notification\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] F:\laragon\www\react-native\flashcards\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.58.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\react-native-0.58.1.aar\aece238457c4cba3a68db10f86046627\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\272da98aed265b509523392e0b706069\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.1.0.aar\d6615941bce8933a44ca232701ee166f\AndroidManifest.xml:17:1-28:12
+MERGED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:2:1-41:12
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.1.aar\cd4141e9f90bf829f4d39946804e8d14\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\b528ab3d7595c81b8c52287bad1506fd\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f42863dd009cdf3a659a159523bc3052\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\3daf26cb8923eb294791bf29d3ada13a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c6f07c1a3891521fc681a3906b9bcda2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\6df40d92e3d1866c52d6693abd3b9a01\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1e20edc328d372f110970343e9137b33\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\63b8e24669cb2e077f3cc785bd19cb27\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\866e3ec4d040d17df9e2d7b0c55c6f8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\272ddcf131d02e85cfc4050b69a9e3c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\83536f5ca331b75e80878f0fad847084\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ebc55d0d41add96808c77a70b28a6b81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\db32068915635a91d11dbf6f02832218\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\95c775bc687e6b09b2e9c6a04dd246c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2b3e50abe28308607087d717e72773fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a220986706d535c4992907275c8940e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c25ae8622f9b3db432142509fc8adf7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a0badf8d7dc1057a7b60bc57e230189b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\f0051ebe6e76977d89ff6675febe6fe9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\7daf05d0413130d11e93e3a39e069030\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\60abc3294f68d833116f2a683ee3cb6c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\020c7b6ef041b7fa1fffa64f136522d2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\feb8e1390823aa61d1ecf28a0c4f1be0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f5871691a3bdae1a57faf15fc99766ff\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\108f7a2c9f8b724ee7b9f42713d538b9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b5f4dc192bf37c70307edc5cc1a7b5f4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\72dc61cf8d2421300e87eb247287ac33\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c512ab74521977c3b50b9073a552f0e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\f4e347d3562132d95c28abc8fc785242\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ddbd426ef0f1a896a1f13150f5057be0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\434161e41138713666037865827b4c78\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\db13836efab84c77ca315433ee0a8587\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cb9db7a7d61f452990ebe926a2b5db99\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\efeaacac10709f69f6899a1459a54a31\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\9d5650bbbe8a63189bb9a8660267e406\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\e2b692bd0549a960224cdb6559270e01\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\ba665d8226bea0a8db70734427f41665\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\c2efcea61ee24335f3849d02121cbb2e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\91ee8c504e16641181e34095a5be1954\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\23d2f3ecee332bc518a6c29dc102007f\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\97201434f487c5bb6c8250c3f1424132\AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\a73efba0ba420c4e687cdddb6fcf1c2b\AndroidManifest.xml:2:1-9:12
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12
+	package
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:2:3-33
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.1.0.aar\d6615941bce8933a44ca232701ee166f\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.1.0.aar\d6615941bce8933a44ca232701ee166f\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.1.aar\cd4141e9f90bf829f4d39946804e8d14\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.1.aar\cd4141e9f90bf829f4d39946804e8d14\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.58.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\react-native-0.58.1.aar\aece238457c4cba3a68db10f86046627\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.58.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\react-native-0.58.1.aar\aece238457c4cba3a68db10f86046627\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:7:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:14:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:15:22-78
+application
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:17:5-74:19
+MERGED from [com.facebook.react:react-native:0.58.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\react-native-0.58.1.aar\aece238457c4cba3a68db10f86046627\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.58.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\react-native-0.58.1.aar\aece238457c4cba3a68db10f86046627\AndroidManifest.xml:13:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.1.0.aar\d6615941bce8933a44ca232701ee166f\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.1.0.aar\d6615941bce8933a44ca232701ee166f\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.1.aar\cd4141e9f90bf829f4d39946804e8d14\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.1.aar\cd4141e9f90bf829f4d39946804e8d14\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\b528ab3d7595c81b8c52287bad1506fd\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\b528ab3d7595c81b8c52287bad1506fd\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f42863dd009cdf3a659a159523bc3052\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f42863dd009cdf3a659a159523bc3052\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\3daf26cb8923eb294791bf29d3ada13a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\3daf26cb8923eb294791bf29d3ada13a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c6f07c1a3891521fc681a3906b9bcda2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c6f07c1a3891521fc681a3906b9bcda2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\6df40d92e3d1866c52d6693abd3b9a01\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\6df40d92e3d1866c52d6693abd3b9a01\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1e20edc328d372f110970343e9137b33\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1e20edc328d372f110970343e9137b33\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\63b8e24669cb2e077f3cc785bd19cb27\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\63b8e24669cb2e077f3cc785bd19cb27\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\020c7b6ef041b7fa1fffa64f136522d2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\020c7b6ef041b7fa1fffa64f136522d2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\feb8e1390823aa61d1ecf28a0c4f1be0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\feb8e1390823aa61d1ecf28a0c4f1be0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f5871691a3bdae1a57faf15fc99766ff\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f5871691a3bdae1a57faf15fc99766ff\AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\23d2f3ecee332bc518a6c29dc102007f\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\23d2f3ecee332bc518a6c29dc102007f\AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\97201434f487c5bb6c8250c3f1424132\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\97201434f487c5bb6c8250c3f1424132\AndroidManifest.xml:2:3-17
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\feb8e1390823aa61d1ecf28a0c4f1be0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:19:7-39
+	android:roundIcon
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:21:7-52
+	android:icon
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:20:7-41
+	android:allowBackup
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:22:7-34
+	android:theme
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:23:7-38
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:18:7-38
+activity#com.nativeflashcards.MainActivity
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:24:7-33:18
+	android:label
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:26:9-41
+	android:windowSoftInputMode
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:28:9-51
+	android:configChanges
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:27:9-79
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:25:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:29:9-32:25
+action#android.intent.action.MAIN
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:30:13-65
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:30:21-62
+category#android.intent.category.LAUNCHER
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:31:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:34:7-84
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:34:17-81
+meta-data#com.dieam.reactnativepushnotification.notification_channel_name
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:36:9-37:56
+	android:value
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:37:21-54
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:36:21-99
+meta-data#com.dieam.reactnativepushnotification.notification_channel_description
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:38:9-39:68
+	android:value
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:39:21-66
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:38:21-106
+meta-data#com.dieam.reactnativepushnotification.notification_color
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:41:9-42:62
+	android:resource
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:42:21-60
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:41:21-92
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:45:9-53:20
+	android:exported
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:47:17-40
+	android:permission
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:46:17-70
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.nativeflashcards
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:49:13-52:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:50:17-81
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:50:25-78
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:56:9-110
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:56:19-107
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:57:9-61:20
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:57:19-115
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:58:13-60:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:59:17-79
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:59:25-76
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:62:9-118
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:62:18-116
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerServiceGcm
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:65:9-71:19
+	android:exported
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:67:17-41
+	android:name
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:66:17-114
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:68:13-70:29
+uses-sdk
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-push-notification] F:\laragon\www\react-native\flashcards\node_modules\react-native-push-notification\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] F:\laragon\www\react-native\flashcards\node_modules\react-native-push-notification\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\laragon\www\react-native\flashcards\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\laragon\www\react-native\flashcards\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.58.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\react-native-0.58.1.aar\aece238457c4cba3a68db10f86046627\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.58.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\react-native-0.58.1.aar\aece238457c4cba3a68db10f86046627\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\272da98aed265b509523392e0b706069\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\272da98aed265b509523392e0b706069\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.1.0.aar\d6615941bce8933a44ca232701ee166f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.1.0.aar\d6615941bce8933a44ca232701ee166f\AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.1.aar\cd4141e9f90bf829f4d39946804e8d14\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.1.aar\cd4141e9f90bf829f4d39946804e8d14\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\b528ab3d7595c81b8c52287bad1506fd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\b528ab3d7595c81b8c52287bad1506fd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f42863dd009cdf3a659a159523bc3052\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f42863dd009cdf3a659a159523bc3052\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\3daf26cb8923eb294791bf29d3ada13a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\3daf26cb8923eb294791bf29d3ada13a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c6f07c1a3891521fc681a3906b9bcda2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c6f07c1a3891521fc681a3906b9bcda2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\6df40d92e3d1866c52d6693abd3b9a01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\6df40d92e3d1866c52d6693abd3b9a01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1e20edc328d372f110970343e9137b33\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1e20edc328d372f110970343e9137b33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\63b8e24669cb2e077f3cc785bd19cb27\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\63b8e24669cb2e077f3cc785bd19cb27\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\866e3ec4d040d17df9e2d7b0c55c6f8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\866e3ec4d040d17df9e2d7b0c55c6f8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\272ddcf131d02e85cfc4050b69a9e3c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\272ddcf131d02e85cfc4050b69a9e3c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\83536f5ca331b75e80878f0fad847084\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\83536f5ca331b75e80878f0fad847084\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ebc55d0d41add96808c77a70b28a6b81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ebc55d0d41add96808c77a70b28a6b81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\db32068915635a91d11dbf6f02832218\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\db32068915635a91d11dbf6f02832218\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\95c775bc687e6b09b2e9c6a04dd246c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\95c775bc687e6b09b2e9c6a04dd246c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2b3e50abe28308607087d717e72773fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2b3e50abe28308607087d717e72773fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a220986706d535c4992907275c8940e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a220986706d535c4992907275c8940e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c25ae8622f9b3db432142509fc8adf7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c25ae8622f9b3db432142509fc8adf7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a0badf8d7dc1057a7b60bc57e230189b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a0badf8d7dc1057a7b60bc57e230189b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\f0051ebe6e76977d89ff6675febe6fe9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\f0051ebe6e76977d89ff6675febe6fe9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\7daf05d0413130d11e93e3a39e069030\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\7daf05d0413130d11e93e3a39e069030\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\60abc3294f68d833116f2a683ee3cb6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\60abc3294f68d833116f2a683ee3cb6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\020c7b6ef041b7fa1fffa64f136522d2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\020c7b6ef041b7fa1fffa64f136522d2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\feb8e1390823aa61d1ecf28a0c4f1be0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\feb8e1390823aa61d1ecf28a0c4f1be0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f5871691a3bdae1a57faf15fc99766ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f5871691a3bdae1a57faf15fc99766ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\108f7a2c9f8b724ee7b9f42713d538b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\108f7a2c9f8b724ee7b9f42713d538b9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b5f4dc192bf37c70307edc5cc1a7b5f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b5f4dc192bf37c70307edc5cc1a7b5f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\72dc61cf8d2421300e87eb247287ac33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\72dc61cf8d2421300e87eb247287ac33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c512ab74521977c3b50b9073a552f0e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c512ab74521977c3b50b9073a552f0e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\f4e347d3562132d95c28abc8fc785242\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\f4e347d3562132d95c28abc8fc785242\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ddbd426ef0f1a896a1f13150f5057be0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ddbd426ef0f1a896a1f13150f5057be0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\434161e41138713666037865827b4c78\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\434161e41138713666037865827b4c78\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\db13836efab84c77ca315433ee0a8587\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\db13836efab84c77ca315433ee0a8587\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cb9db7a7d61f452990ebe926a2b5db99\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cb9db7a7d61f452990ebe926a2b5db99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\efeaacac10709f69f6899a1459a54a31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\efeaacac10709f69f6899a1459a54a31\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\9d5650bbbe8a63189bb9a8660267e406\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\9d5650bbbe8a63189bb9a8660267e406\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\e2b692bd0549a960224cdb6559270e01\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\e2b692bd0549a960224cdb6559270e01\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\ba665d8226bea0a8db70734427f41665\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\ba665d8226bea0a8db70734427f41665\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\c2efcea61ee24335f3849d02121cbb2e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\c2efcea61ee24335f3849d02121cbb2e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\91ee8c504e16641181e34095a5be1954\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\91ee8c504e16641181e34095a5be1954\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\23d2f3ecee332bc518a6c29dc102007f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\23d2f3ecee332bc518a6c29dc102007f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\a73efba0ba420c4e687cdddb6fcf1c2b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\a73efba0ba420c4e687cdddb6fcf1c2b\AndroidManifest.xml:5:5-7:41
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\63b8e24669cb2e077f3cc785bd19cb27\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.1.0.aar\d6615941bce8933a44ca232701ee166f\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.1.aar\cd4141e9f90bf829f4d39946804e8d14\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.1.aar\cd4141e9f90bf829f4d39946804e8d14\AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.1.0.aar\d6615941bce8933a44ca232701ee166f\AndroidManifest.xml:23:22-79
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.8.aar\13b8b2cc9afea2e4c141b8d694c992f8\AndroidManifest.xml:39:22-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\7135881251555aaf99b098963a51b179\AndroidManifest.xml:32:25-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:22:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:38:13-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\3f5cbbf7750bf6e062be031bb5f0588a\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f42863dd009cdf3a659a159523bc3052\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f42863dd009cdf3a659a159523bc3052\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f42863dd009cdf3a659a159523bc3052\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f42863dd009cdf3a659a159523bc3052\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c3e22d0dc606cc9a7c08d39e3333b863\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1e20edc328d372f110970343e9137b33\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1e20edc328d372f110970343e9137b33\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1e20edc328d372f110970343e9137b33\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\63b8e24669cb2e077f3cc785bd19cb27\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\020c7b6ef041b7fa1fffa64f136522d2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\020c7b6ef041b7fa1fffa64f136522d2\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\63b8e24669cb2e077f3cc785bd19cb27\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Siamshogun\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\63b8e24669cb2e077f3cc785bd19cb27\AndroidManifest.xml:27:13-51
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from F:\laragon\www\react-native\flashcards\android\app\src\main\AndroidManifest.xml:1:1-76:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
