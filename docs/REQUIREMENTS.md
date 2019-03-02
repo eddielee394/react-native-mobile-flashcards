@@ -107,11 +107,10 @@
             <li>Both the 'Restart Quiz' and 'Back to Deck' buttons route correctly to their respective views.</li>
           </ul>
         </td>
-        <td>
-        <p>- Need to add number of remaining questions</p>
-        <p>- Need to display score after last question is answered</p>
-        <p>- Need to add number of remaining questions</p>
-        <p>- Need to add button to start quiz over or return back to deck</p>
+        <td>Complete
+        <p>- Need to add number of remaining questions: complete</p>
+        <p>- Need to display score after last question is answered : complete</p>
+        <p>- Need to add button to start quiz over or return back to deck: complete</p>
         </td>
       </tr>
       <tr>
@@ -121,7 +120,7 @@
           <p>The view includes a form for creating a new deck - which should just be an input for the title and a 'Create Deck' button. </p>
           <p>Pressing the button correctly creates the deck and routes the user to the Individual Deck view for the new deck.</p>
         </td>
-        <td><p>- Partially complete</p></td>
+        <td><p>- Complete</p></td>
       </tr>
       <tr>
         <td>
@@ -130,7 +129,7 @@
         <td>
           <p>Logic for notification has been implemented. Notifications are generated at a specific time if the user hasn't completed at least one quiz for that day.</p>
         </td>
-        <td>- Not complete</td>
+        <td>- completed</td>
       </tr>
       <tr>
         <td><p>Does the app function correctly in either Android or iOS?</p>

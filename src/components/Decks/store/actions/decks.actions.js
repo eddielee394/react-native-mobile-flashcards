@@ -1,11 +1,9 @@
 import { Api, Helpers } from "utils";
 
 export const GET_DECKS = "[DECKS] GET_DECKS";
-export const GET_DECK = "[DECK] GET_DECK";
 export const STORE_DECK = "[DECKS] STORE_DECK";
 export const STORE_CARD = "[DECKS] STORE_CARD";
 export const UPDATE_DECKS = "[DECKS] UPDATE_DECKS";
-export const UPDATE_DECK = "[DECKS] UPDATE_DECK";
 
 export const getDecks = () => dispatch => {
   return dispatch({

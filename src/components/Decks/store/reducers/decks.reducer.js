@@ -25,7 +25,8 @@ const decksReducer = (state = initialState, action) => {
         //receive the state
         ...state,
         //merge the action
-        data: { ...state.data, ...action.payload }
+        data: state.data.concat([action.payload])//Object.assign({},state.data,payloadObj) //{ ...state.data, ...action.payload }
+
       };
     case `${Actions.STORE_CARD}_SUCCESS`:
       const deckIndex = _.findIndex(state.data, { id: action.payload.deckId });
