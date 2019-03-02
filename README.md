@@ -1,6 +1,9 @@
 # Overview
 Mobile flash cards and quiz app built with React Native for Android Devices only.  Projec & docs are **WIP**
 
+![main_screenshot.png](docs/screenshots/main_screenshot.png)
+
+
 ### Usage
 - If you're installing for the first time, run `yarn run start:all` to generate the mock api data file, start the local api server & build the app files.
 - Update the `.env` in the root directory with the api url which would be your localhost ip address.  If you're using the android studio emulator to test, this ip should be:  `http://10.0.2.2:4000/api`
